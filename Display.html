@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width==device-width, initial-scale=1.0">
+    <title>Vectra Login</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <style>
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+        }
+        #formCont{
+            display: block;
+           
+        }
+        #nameLab{
+            width: auto;
+            margin-left: 0;
+            margin-right: 3.5rem;
+  }
+  #Name
+  {
+    flex-direction: row;
+    justify-content: start;
+
+  }
+  
+    </style>
+    
+    </head>
+    <body>
+    
+    <div class="navbar">
+      <img  id="img1" src="logo1.jpg"> 
+      
+      
+      <div>
+      <img id="img2" src="logo2.jpeg">
+    </div>
+  </div>
+     
+    <section>
+      
+        <div class="container" style="height: 40vh;">
+
+          <form id="myForm">
+
+            <div class=" step step-1 active" id="formCont">
+
+              <div class="form-group" id="Name">
+                <label for="Name" id="nameLab">Name</label>
+                <input type="text" id="Name" name="Name" style="width: 20rem;">
+              </div>
+
+              <div class="form-group">
+                <label for="Phonenumber">Phone Number</label>
+                <input type="tel" id="Phonenumber"  name="Phonenumber" pattern="[0-9] {10}" max="10" required style="width: 20rem;"> <br> <br>
+              </div>
+
+              
+                
+                
+        
+
+             
+              <div class="btn">
+                <button type="button" class="view-btn">View</button>
+              </div>
+              
+              
+              
+
+            </div>
+          </form>
+        </div>
+    </section>
+    
+</body>
+</html>
