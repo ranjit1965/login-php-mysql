@@ -39,34 +39,12 @@
 
               <div class="form-group">
                 <label for="Phonenumber">Phone Number</label>
-                <input type="tel" id="Phonenumber"  name="Phonenumber" pattern="[0-9] {10}" max="10" required> <br> <br>
+                <input type="tel" id="Phonenumber"  name="Phonenumber" > <br> <br>
               </div>
 
               <div class="form-group">
                 <label for="IPAddress">IP Address</label>
-                <h3>
-                  192.168.0.
-                  <input id="lastDigit" name="lastDigit" onfocusout="setFoundation()">  
-                </h3>
-                
-                
-                <script>
-                var options = ""
-                function myFunction(){
-  const timeInbtn = document.getElementById("TimeIn");
-  const timeOutbtn = document.getElementById("TimeOut");
-  var curTime = timeInbtn.value;
-  timeOutbtn.min = timeInbtn.value;
-  timeOutbtn.value='';
-}
-function setFoundation()
-{
-  
-  const select=document.getElementById("lastDigit");
-  const fon=document.getElementById("foundationnumber");
-  fon.value="192.168.0."+select.value;
-}       
-            </script>
+               <input type="tel" id="IPAddress"  name="IPAddress" > <br> <br>
               </div>
 
               <div class="form-group">
